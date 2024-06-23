@@ -1,0 +1,113 @@
+/* src/Header.css */
+
+
+
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    border: 1px solid rgb(221, 221, 236);
+    background-color: #fff;
+    height: 80px;
+
+    width: 1120px;
+height: 120px;
+top: 104px;
+left: 296px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+  } */
+   .header{
+    width: 1168px;
+height: 80px;
+left: 272px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+   }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+    /* margin-right: 100px; */
+  }
+  
+  .bell {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #808080;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin-right: 20px;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    border-radius:50% ;
+}
+  
+  .dropdown {
+    font-size: 24px;
+    cursor: pointer;
+    color: #808080;
+  }
+  
+.li{
+    color: rgb(220, 90, 192);
+}
+  
+.first{
+    border: 1px solid rgb(221, 221, 236);
+    margin-top: 1rem;
+    padding-left: 2rem;
+    display: flex; /* Enable flexbox for the container */
+    flex-direction: column; /* Arrange elements vertically by default */
+    gap: 0.0000025em; /* Set the gap between elements */
+    width: 1120px;
+height: 120px;
+top: 104px;
+left: 296px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+padding-bottom: 4rem;
+
+    
+}
+
+.hh{
+    padding-left: 2rem;
+}
+
+.icons{
+    padding-right: 7rem;
+}
+
+.cc{
+    display: flex;
+}
+
+.gg{
+    padding-right: 2rem;
+}
+
+.ff{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

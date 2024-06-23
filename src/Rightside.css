@@ -1,0 +1,25 @@
+.container{
+    /* display: grid; /* Use grid layout for sections */
+  /* grid-template-columns: 3fr 1fr ;  */ 
+  /* Three columns with custom widths */
+  /* grid-gap: 20px; Add spacing between sections */
+  /* min-height: 100vh; Set minimum viewport height */
+  display: flex;
+  
+
+
+}
+
+
+.task-list-container,
+.activity-feed-container,
+.tasks-by-priority-container {
+  padding: 20px;
+   /* Add borders for sections */
+}
+
+.second{
+    width: 200px;
+    grid-template-rows: auto;
+    border: 1px solid #ddd;
+}

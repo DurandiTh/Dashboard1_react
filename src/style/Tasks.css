@@ -1,0 +1,27 @@
+.container{
+  width: 100%;
+}
+
+.container td {
+    padding-left: 30px; /* Adjust padding to your preference */
+    padding-right: 30px; /* Adjust padding to your preference */
+    padding-top: 15px;
+    border: 1px solid #ddddec;
+  }
+  
+  .layout_container{
+    width: 656px;
+height: 632px;
+top: 248px;
+left: 296px;
+gap: 0px;
+opacity: 0px;
+overflow: auto;
+display: inline;
+
+  }
+
+  td {
+    flex: 1 0 auto; /* Minimum width, grow as needed */
+    min-width: [desired minimum width];
+  }

@@ -1,0 +1,17 @@
+.layout_container{
+    width: 440px;
+    height: 253px;
+    top: 627px;
+    left: 976px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    
+}
+
+
+.chart-container {
+    display: flex; /* Enable flexbox for child elements */
+   
+  }

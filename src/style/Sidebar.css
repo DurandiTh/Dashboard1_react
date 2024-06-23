@@ -1,0 +1,54 @@
+/* body{
+    background-color: rgb(41, 2, 65);
+} */
+
+.first1{
+   
+    background-color:rgb(145, 61, 145);
+  
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+}
+
+.sidebar{
+    color: white;
+    flex: 1; /* Make the sidebar fill most of the container */
+  background-color: purple; /* Inherit purple color from parent */
+  padding: 20px;
+    /* background-color: rgb(41, 2, 65); */
+
+    }
+
+    .second1{
+        background-color:rgb(145, 61, 145);
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 4rem;
+        -webkit-border-radius: 4rem;
+        -moz-border-radius: 4rem;
+        -ms-border-radius: 4rem;
+        -o-border-radius: 4rem;
+}
+
+.layout_container2{
+    width: 440px;
+height: 100%;
+top: 627px;
+left: 976px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+background-color: purple;
+}
+
+.sidebar-footer {
+    flex: 0 0 auto; /* Set footer to fixed height and allow content to shrink */
+    background-color: purple; /* Set white background color */
+    padding: 10px; /* Add padding for content */
+    /* Add styles for footer content (optional) */
+  }
